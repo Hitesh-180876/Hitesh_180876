@@ -1,0 +1,19 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+	int x,y=2,z=1;
+	cout<<"enter the base value";
+	cin>>x;
+	cout<<"enter the power value";
+	cin>>y;
+	while(y>0)
+	{
+		z=z*x;
+		y--;
+		cout<<"the result is "<<z;
+	}
+	getch();
+	
+}
